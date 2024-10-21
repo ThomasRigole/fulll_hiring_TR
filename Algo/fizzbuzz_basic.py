@@ -29,7 +29,7 @@ def fizzbuzz_generator(n, fizzbuzz_map):
     """
     for i in range(1, n + 1):
         sequence = ''.join([word for divisor, word in fizzbuzz_map.items()
-                           if i % divisor == 0])
+                            if i % divisor == 0])
         yield sequence or str(i)
 
 

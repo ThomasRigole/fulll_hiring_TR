@@ -8,8 +8,8 @@
 > Thomas Rigole
 ---------------
 > Advanced version :
-Choice of custom & scalable rules, via command argument parser
-at program launch. If required on a larger scale, use a ruleset
+Choice of custom & scalable rules, via command-line argument parser.
+If required on a larger scale, use a ruleset
 JSON file to create the fizzbuzz_map dict.
 """
 
